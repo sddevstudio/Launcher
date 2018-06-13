@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F96AB60C20CAFD40007635C6 /* com.apple.MobileSMS-large.png in Resources */ = {isa = PBXBuildFile; fileRef = F96AB60020CAFD3F007635C6 /* com.apple.MobileSMS-large.png */; };
+		F96AB60D20CAFD40007635C6 /* com.apple.mobilenotes-large.png in Resources */ = {isa = PBXBuildFile; fileRef = F96AB60120CAFD3F007635C6 /* com.apple.mobilenotes-large.png */; };
+		F96AB60E20CAFD40007635C6 /* com.apple.mobiletimer-large.png in Resources */ = {isa = PBXBuildFile; fileRef = F96AB60220CAFD3F007635C6 /* com.apple.mobiletimer-large.png */; };
+		F96AB60F20CAFD40007635C6 /* com.apple.weather-large.png in Resources */ = {isa = PBXBuildFile; fileRef = F96AB60320CAFD3F007635C6 /* com.apple.weather-large.png */; };
+		F96AB61020CAFD40007635C6 /* com.apple.Maps-large.png in Resources */ = {isa = PBXBuildFile; fileRef = F96AB60420CAFD40007635C6 /* com.apple.Maps-large.png */; };
+		F96AB61120CAFD40007635C6 /* com.apple.mobilemail-large.png in Resources */ = {isa = PBXBuildFile; fileRef = F96AB60520CAFD40007635C6 /* com.apple.mobilemail-large.png */; };
+		F96AB61220CAFD40007635C6 /* com.apple.camera-large.png in Resources */ = {isa = PBXBuildFile; fileRef = F96AB60620CAFD40007635C6 /* com.apple.camera-large.png */; };
+		F96AB61320CAFD40007635C6 /* com.apple.calculator-large.png in Resources */ = {isa = PBXBuildFile; fileRef = F96AB60720CAFD40007635C6 /* com.apple.calculator-large.png */; };
+		F96AB61420CAFD40007635C6 /* com.apple.mobilephone-large.png in Resources */ = {isa = PBXBuildFile; fileRef = F96AB60820CAFD40007635C6 /* com.apple.mobilephone-large.png */; };
+		F96AB61520CAFD40007635C6 /* com.apple.Health-large.png in Resources */ = {isa = PBXBuildFile; fileRef = F96AB60920CAFD40007635C6 /* com.apple.Health-large.png */; };
+		F96AB61620CAFD40007635C6 /* com.apple.mobilesafari-large.png in Resources */ = {isa = PBXBuildFile; fileRef = F96AB60A20CAFD40007635C6 /* com.apple.mobilesafari-large.png */; };
+		F96AB61720CAFD40007635C6 /* com.apple.iBooks-large.png in Resources */ = {isa = PBXBuildFile; fileRef = F96AB60B20CAFD40007635C6 /* com.apple.iBooks-large.png */; };
+		F96AB61920CAFF34007635C6 /* iPhoneUnderlaySpringBoard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F96AB61820CAFF34007635C6 /* iPhoneUnderlaySpringBoard@3x.png */; };
+		F96AB61B20CB055C007635C6 /* net.whatsapp.WhatsApp-large.png in Resources */ = {isa = PBXBuildFile; fileRef = F96AB61A20CB055C007635C6 /* net.whatsapp.WhatsApp-large.png */; };
+		F96AB61D20CB0644007635C6 /* com.atebits.Tweetie2-large.png in Resources */ = {isa = PBXBuildFile; fileRef = F96AB61C20CB0644007635C6 /* com.atebits.Tweetie2-large.png */; };
+		F96AB62120CF6CEB007635C6 /* DockIcons.plist in Resources */ = {isa = PBXBuildFile; fileRef = F96AB62020CF6CEB007635C6 /* DockIcons.plist */; };
+		F96AB62320CF6F32007635C6 /* Icons.plist in Resources */ = {isa = PBXBuildFile; fileRef = F96AB62220CF6F32007635C6 /* Icons.plist */; };
+		F96AB62520CF9DE7007635C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F96AB62420CF9DE7007635C6 /* Images.xcassets */; };
+		F96AB62720CF9ED5007635C6 /* trees3.png in Resources */ = {isa = PBXBuildFile; fileRef = F96AB62620CF9ED4007635C6 /* trees3.png */; };
+		F96AB62920CFA426007635C6 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96AB62820CFA426007635C6 /* Launch.storyboard */; };
+		F96AB62B20D0D39C007635C6 /* Widgets in Resources */ = {isa = PBXBuildFile; fileRef = F96AB62A20D0D39B007635C6 /* Widgets */; };
+		F96EA70F20C9D846004EFA00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F96EA70E20C9D846004EFA00 /* AppDelegate.m */; };
+		F96EA71220C9D846004EFA00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F96EA71120C9D846004EFA00 /* ViewController.m */; };
+		F96EA71520C9D846004EFA00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96EA71320C9D846004EFA00 /* Main.storyboard */; };
+		F96EA71D20C9D848004EFA00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F96EA71C20C9D848004EFA00 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F96AB60020CAFD3F007635C6 /* com.apple.MobileSMS-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "com.apple.MobileSMS-large.png"; sourceTree = "<group>"; };
+		F96AB60120CAFD3F007635C6 /* com.apple.mobilenotes-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "com.apple.mobilenotes-large.png"; sourceTree = "<group>"; };
+		F96AB60220CAFD3F007635C6 /* com.apple.mobiletimer-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "com.apple.mobiletimer-large.png"; sourceTree = "<group>"; };
+		F96AB60320CAFD3F007635C6 /* com.apple.weather-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "com.apple.weather-large.png"; sourceTree = "<group>"; };
+		F96AB60420CAFD40007635C6 /* com.apple.Maps-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "com.apple.Maps-large.png"; sourceTree = "<group>"; };
+		F96AB60520CAFD40007635C6 /* com.apple.mobilemail-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "com.apple.mobilemail-large.png"; sourceTree = "<group>"; };
+		F96AB60620CAFD40007635C6 /* com.apple.camera-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "com.apple.camera-large.png"; sourceTree = "<group>"; };
+		F96AB60720CAFD40007635C6 /* com.apple.calculator-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "com.apple.calculator-large.png"; sourceTree = "<group>"; };
+		F96AB60820CAFD40007635C6 /* com.apple.mobilephone-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "com.apple.mobilephone-large.png"; sourceTree = "<group>"; };
+		F96AB60920CAFD40007635C6 /* com.apple.Health-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "com.apple.Health-large.png"; sourceTree = "<group>"; };
+		F96AB60A20CAFD40007635C6 /* com.apple.mobilesafari-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "com.apple.mobilesafari-large.png"; sourceTree = "<group>"; };
+		F96AB60B20CAFD40007635C6 /* com.apple.iBooks-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "com.apple.iBooks-large.png"; sourceTree = "<group>"; };
+		F96AB61820CAFF34007635C6 /* iPhoneUnderlaySpringBoard@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneUnderlaySpringBoard@3x.png"; sourceTree = "<group>"; };
+		F96AB61A20CB055C007635C6 /* net.whatsapp.WhatsApp-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "net.whatsapp.WhatsApp-large.png"; sourceTree = "<group>"; };
+		F96AB61C20CB0644007635C6 /* com.atebits.Tweetie2-large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "com.atebits.Tweetie2-large.png"; sourceTree = "<group>"; };
+		F96AB62020CF6CEB007635C6 /* DockIcons.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DockIcons.plist; sourceTree = "<group>"; };
+		F96AB62220CF6F32007635C6 /* Icons.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Icons.plist; sourceTree = "<group>"; };
+		F96AB62420CF9DE7007635C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F96AB62620CF9ED4007635C6 /* trees3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trees3.png; sourceTree = "<group>"; };
+		F96AB62820CFA426007635C6 /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		F96AB62A20D0D39B007635C6 /* Widgets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Widgets; sourceTree = "<group>"; };
+		F96EA70A20C9D846004EFA00 /* Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Launcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F96EA70D20C9D846004EFA00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F96EA70E20C9D846004EFA00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F96EA71020C9D846004EFA00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F96EA71120C9D846004EFA00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F96EA71420C9D846004EFA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F96EA71B20C9D848004EFA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F96EA71C20C9D848004EFA00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F96EA70720C9D846004EFA00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F96AB5FD20CAF714007635C6 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				F96AB61C20CB0644007635C6 /* com.atebits.Tweetie2-large.png */,
+				F96AB61A20CB055C007635C6 /* net.whatsapp.WhatsApp-large.png */,
+				F96AB61820CAFF34007635C6 /* iPhoneUnderlaySpringBoard@3x.png */,
+				F96AB60720CAFD40007635C6 /* com.apple.calculator-large.png */,
+				F96AB60620CAFD40007635C6 /* com.apple.camera-large.png */,
+				F96AB60920CAFD40007635C6 /* com.apple.Health-large.png */,
+				F96AB60B20CAFD40007635C6 /* com.apple.iBooks-large.png */,
+				F96AB60420CAFD40007635C6 /* com.apple.Maps-large.png */,
+				F96AB60520CAFD40007635C6 /* com.apple.mobilemail-large.png */,
+				F96AB60120CAFD3F007635C6 /* com.apple.mobilenotes-large.png */,
+				F96AB60820CAFD40007635C6 /* com.apple.mobilephone-large.png */,
+				F96AB60A20CAFD40007635C6 /* com.apple.mobilesafari-large.png */,
+				F96AB60020CAFD3F007635C6 /* com.apple.MobileSMS-large.png */,
+				F96AB60220CAFD3F007635C6 /* com.apple.mobiletimer-large.png */,
+				F96AB60320CAFD3F007635C6 /* com.apple.weather-large.png */,
+				F96AB62620CF9ED4007635C6 /* trees3.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		F96EA70120C9D846004EFA00 = {
+			isa = PBXGroup;
+			children = (
+				F96EA70C20C9D846004EFA00 /* Launcher */,
+				F96EA70B20C9D846004EFA00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F96EA70B20C9D846004EFA00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F96EA70A20C9D846004EFA00 /* Launcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F96EA70C20C9D846004EFA00 /* Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				F96AB62020CF6CEB007635C6 /* DockIcons.plist */,
+				F96AB62220CF6F32007635C6 /* Icons.plist */,
+				F96AB5FD20CAF714007635C6 /* assets */,
+				F96EA70D20C9D846004EFA00 /* AppDelegate.h */,
+				F96EA70E20C9D846004EFA00 /* AppDelegate.m */,
+				F96EA71020C9D846004EFA00 /* ViewController.h */,
+				F96EA71120C9D846004EFA00 /* ViewController.m */,
+				F96EA71320C9D846004EFA00 /* Main.storyboard */,
+				F96EA71B20C9D848004EFA00 /* Info.plist */,
+				F96EA71C20C9D848004EFA00 /* main.m */,
+				F96AB62A20D0D39B007635C6 /* Widgets */,
+				F96AB62420CF9DE7007635C6 /* Images.xcassets */,
+				F96AB62820CFA426007635C6 /* Launch.storyboard */,
+			);
+			path = Launcher;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F96EA70920C9D846004EFA00 /* Launcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F96EA73620C9D848004EFA00 /* Build configuration list for PBXNativeTarget "Launcher" */;
+			buildPhases = (
+				F96EA70620C9D846004EFA00 /* Sources */,
+				F96EA70720C9D846004EFA00 /* Frameworks */,
+				F96EA70820C9D846004EFA00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Launcher;
+			productName = WWApp;
+			productReference = F96EA70A20C9D846004EFA00 /* Launcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F96EA70220C9D846004EFA00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Stephen Delisle";
+				TargetAttributes = {
+					F96EA70920C9D846004EFA00 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = F96EA70520C9D846004EFA00 /* Build configuration list for PBXProject "Launcher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F96EA70120C9D846004EFA00;
+			productRefGroup = F96EA70B20C9D846004EFA00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F96EA70920C9D846004EFA00 /* Launcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F96EA70820C9D846004EFA00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96AB62320CF6F32007635C6 /* Icons.plist in Resources */,
+				F96AB62720CF9ED5007635C6 /* trees3.png in Resources */,
+				F96AB62520CF9DE7007635C6 /* Images.xcassets in Resources */,
+				F96AB60D20CAFD40007635C6 /* com.apple.mobilenotes-large.png in Resources */,
+				F96AB62B20D0D39C007635C6 /* Widgets in Resources */,
+				F96AB61920CAFF34007635C6 /* iPhoneUnderlaySpringBoard@3x.png in Resources */,
+				F96AB61B20CB055C007635C6 /* net.whatsapp.WhatsApp-large.png in Resources */,
+				F96AB61520CAFD40007635C6 /* com.apple.Health-large.png in Resources */,
+				F96AB61020CAFD40007635C6 /* com.apple.Maps-large.png in Resources */,
+				F96AB61D20CB0644007635C6 /* com.atebits.Tweetie2-large.png in Resources */,
+				F96AB61120CAFD40007635C6 /* com.apple.mobilemail-large.png in Resources */,
+				F96AB61620CAFD40007635C6 /* com.apple.mobilesafari-large.png in Resources */,
+				F96AB62920CFA426007635C6 /* Launch.storyboard in Resources */,
+				F96AB60F20CAFD40007635C6 /* com.apple.weather-large.png in Resources */,
+				F96AB61220CAFD40007635C6 /* com.apple.camera-large.png in Resources */,
+				F96AB61720CAFD40007635C6 /* com.apple.iBooks-large.png in Resources */,
+				F96AB60E20CAFD40007635C6 /* com.apple.mobiletimer-large.png in Resources */,
+				F96AB61320CAFD40007635C6 /* com.apple.calculator-large.png in Resources */,
+				F96AB60C20CAFD40007635C6 /* com.apple.MobileSMS-large.png in Resources */,
+				F96EA71520C9D846004EFA00 /* Main.storyboard in Resources */,
+				F96AB62120CF6CEB007635C6 /* DockIcons.plist in Resources */,
+				F96AB61420CAFD40007635C6 /* com.apple.mobilephone-large.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F96EA70620C9D846004EFA00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96EA71220C9D846004EFA00 /* ViewController.m in Sources */,
+				F96EA71D20C9D848004EFA00 /* main.m in Sources */,
+				F96EA70F20C9D846004EFA00 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F96EA71320C9D846004EFA00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F96EA71420C9D846004EFA00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F96EA73420C9D848004EFA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F96EA73520C9D848004EFA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F96EA73720C9D848004EFA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S53A7UNF43;
+				INFOPLIST_FILE = Launcher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdappstudio.Launcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F96EA73820C9D848004EFA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S53A7UNF43;
+				INFOPLIST_FILE = Launcher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdappstudio.Launcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F96EA70520C9D846004EFA00 /* Build configuration list for PBXProject "Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F96EA73420C9D848004EFA00 /* Debug */,
+				F96EA73520C9D848004EFA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F96EA73620C9D848004EFA00 /* Build configuration list for PBXNativeTarget "Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F96EA73720C9D848004EFA00 /* Debug */,
+				F96EA73820C9D848004EFA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F96EA70220C9D846004EFA00 /* Project object */;
+}

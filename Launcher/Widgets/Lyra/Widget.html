@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no'>
+	<meta charset="utf-8" />
+	<base href="Weather/"/>
+	<title></title>
+
+	<script>
+	
+	function overrideInit() {
+onLoad();
+}
+
+
+</script>
+	
+	
+
+	
+	<style>
+	body {margin:0;background:transparent url('iW-Overlay.png') no-repeat;width:100%;height:100%;background-size:100%;}
+	#test {display:block;position:fixed;font-family: Helvetica;top:65px;left:5px;width:40px;height:22px;background:rgba(50,50,50,.5);color:#fff;border-radius: 4px;text-align: center;}
+	#WeatherContainer{
+position:absolute;
+    
+
+}
+    .hidefornow {display:none;}
+#TextContainer{
+
+    font-size:20px;
+
+    font-family: Helvetica;
+
+    font-weight: 300;
+
+    color:black;
+
+}
+#city {
+
+	position: absolute; top: 0px; right: 0px; down: 0px; left: 97px; width: 256px; height: 481px;
+
+	text-align: center;
+
+	font-family:  Heiti TC;
+
+	font-size: 20px;
+
+	font-weight: 500;
+
+	text-shadow: 1px 1px 1px #000;
+
+	text-transform: uppercase;
+
+	color: #ffffff;
+
+	opacity: 0.0;
+
+}
+
+#temp {
+
+	position: absolute; top: 25px; left: 8px; width: 100px; height: 100px;
+
+	font-family: Heiti TC;
+
+	font-weight: bold;
+
+	text-align: left;
+
+	color:white;
+
+	font-size: 15px;
+
+	opacity: 1.0;
+
+	text-transform: uppercase;
+   
+   
+
+}
+
+#desc {
+
+	position: absolute; top: 390px; right: 0px; down: 0px; left: 15px; width: 320px; height: 481px;
+
+	font-family: Helvetica;
+
+	font-weight: bold;
+
+	text-align: left;
+
+	color: White;
+
+	text-shadow: 0px 0px 1px #ffffff;
+
+	font-size: 18px;
+
+	opacity: 0.8;
+
+	text-transform: Capitalize;
+    display: none;
+
+}
+#weatherIcon{
+
+	position: absolute; top: -15px; left:-12px; 
+
+	height:62px;
+
+	width:62px;
+
+	opacity: 1.0;
+
+
+}
+
+SPAN#clock
+
+{
+    position: absolute; top: -4px; left: 8px; width: 147px; height: 59px;
+	text-align: center;
+	font-family:Heiti TC;  
+	color: white;
+	font-size: 48px;
+	font-weight: normal;
+	opacity: 1.0;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+#vdate {
+ position: absolute; top: 38px; left: 160px; width: 45px; height: 20px;
+	font-family: Heiti TC;
+	font-weight: normal;
+	text-align: center;
+	color: White;
+	font-size: 24px;
+	opacity: 1.0;
+	text-transform: Capitalize;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+#vmonth {
+ position: absolute; top: 80px; left: 160px; width: 45px; height: 20px;
+	font-family: Heiti TC;
+	font-weight:normal;
+	color: White;
+	font-size: 16px;
+	text-align: center;
+	text-transform: Capitalize;
+	opacity: 1;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+#vweek {
+ position: absolute; top:6px; left: 160px; width: 45px; height: 20px;
+	font-family: Heiti TC;
+	font-weight:normal;
+	color: White;
+	font-size: 16px;
+	text-align: center;
+	text-transform: Capitalize;
+	opacity: 1;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+#vyear
+
+{
+	font-family: Helvetica;
+	text-align: center;
+    text-shadow: 0px 0px 2px #000;
+	color:#blue;
+	font-size: 120px;
+	opacity: 0.0;
+    display: none;
+}
+
+	</style>
+	<script type="text/javascript">
+
+	var EnableClock 	=	true;
+
+	var EnableCalendar	=	true;
+
+</script>
+	<script type="text/javascript">
+
+
+
+function updateClock ( )
+
+{
+
+
+var currentHours_name_array = new Array ("12", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "00")
+var currentMinutes_name_array = new Array ("00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28","29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "00")
+
+	var currentTime = new Date ( );
+
+	var currentHours = currentTime.getHours ( );
+
+	var currentMinutes = currentTime.getMinutes ( );
+
+	currentHours = ( currentHours > 12 ) ? currentHours - 12 : currentHours;
+
+	var currentTimeString =  currentHours_name_array[currentHours] + ":"
+
+	var currentTimeString1 = currentMinutes_name_array[currentMinutes];
+ 
+ 	document.getElementById("clock").firstChild.nodeValue = currentTimeString + currentTimeString1;
+
+}
+
+function amPm ( )
+
+{
+
+	var currentTime = new Date ( );
+
+	var currentHours = currentTime.getHours ( );
+
+//<!-- Convert hours component of "12" to "24" -->
+
+	currentHours = currentHours;
+
+	currentHours = ( currentHours < 0 ) ? currentHours + 24 : currentHours;
+
+//<!-- Defines either "AM" or "PM" as appropriate -->
+
+	var timeOfDay = ( currentHours < 12 ) ? "AM" : "PM";
+
+//<!-- Compose the string for display-->
+
+	var currentTimeString = timeOfDay;
+
+//<!-- Update the string for display of AM/PM-->
+
+	if (EnableClock == true){
+
+		document.getElementById("ampm").firstChild.nodeValue = currentTimeString;
+
+	}
+
+}
+
+function calendarDate ( )
+
+{
+
+var this_weekday_name_array = new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat")
+
+	var this_month_name_array = new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
+
+
+var this_date_name_array= new Array("00","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31")
+	var this_date_timestamp = new Date()
+
+	var this_weekday = this_date_timestamp.getDay()
+
+	var this_date = this_date_timestamp.getDate()
+
+	var this_month = this_date_timestamp.getMonth()
+
+	var this_year = this_date_timestamp.getYear()
+
+	if (this_year < 1000)
+
+		this_year+= 1900;
+
+	if (this_year==101)
+
+		this_year=2001;
+
+	var month = this_date_timestamp.getMonth();
+
+	if (EnableCalendar == true){
+
+		
+
+		document.getElementById("vdate").firstChild.nodeValue = this_date_name_array[this_date]
+
+		document.getElementById("vmonth").firstChild.nodeValue = this_month_name_array[this_month]
+
+		document.getElementById("vweek").firstChild.nodeValue = this_weekday_name_array[this_weekday]
+
+//		document.getElementById("vyear").firstChild.nodeValue = this_year
+
+	}
+
+}
+
+//<!---------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+function onLoad(){
+
+updateClock(); setInterval('updateClock()', 1000 );
+calendarDate(); setInterval('calendarDate()', 1000 );
+
+}
+
+
+
+
+
+</script>
+
+</head>
+<body onload="overrideInit()">
+<div id="t-est"></div>
+<div id="WeatherContainer" class="hidefornow"><img id="weatherIcon" src=""/> <div id="TextContainer"> <p id="city">Searching</p> <p id="temp">?&#176;</p> <p id="desc">mostly cloudy</p> </div> </div>
+<span id="clock">00:00</span>
+<span id="vweek">Wed</span>
+<span id="vdate">05</span>
+<span id="vmonth">Mar</span>
+</body>
+</html>

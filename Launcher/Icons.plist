@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <!--
+     iphone 6s screen
+     width:  375px
+     height: 667px
+     
+     viewsettings the values can be 0-255
+     
+     iconsettings, the width and height values can be overridden on the actual icon
+     -->
+    <dict>
+        <key>viewsettings</key>
+        <dict>
+            <key>red</key>
+            <integer>0</integer>
+            <key>green</key>
+            <integer>0</integer>
+            <key>blue</key>
+            <integer>0</integer>
+            <key>alpha</key>
+            <integer>75</integer>
+        </dict>
+        <key>iconsettings</key>
+        <dict>
+            <key>width</key>
+            <integer>50</integer>
+            <key>height</key>
+            <integer>50</integer>
+            <key>backgroundimage</key>
+            <string>iPhoneUnderlaySpringBoard@3x.png</string>
+        </dict>
+        <key>icons</key>
+        <array>
+            <dict>
+                <key>top</key>
+                <integer>8</integer>
+                <key>left</key>
+                <integer>16</integer>
+                <key>width</key>
+                <integer>50</integer>
+                <key>height</key>
+                <integer>50</integer>
+                <key>image</key>
+                <string>com.apple.MobileSMS-large.png</string>
+                <key>bundleid</key>
+                <string>com.apple.MobileSMS</string>
+            </dict>
+            <dict>
+                <key>top</key>
+                <integer>8</integer>
+                <key>left</key>
+                <integer>89</integer>
+                <key>image</key>
+                <string>com.apple.mobilesafari-large.png</string>
+                <key>bundleid</key>
+                <string>com.apple.mobilesafari</string>
+            </dict>
+            <dict>
+                <key>top</key>
+                <integer>8</integer>
+                <key>left</key>
+                <integer>162</integer>
+                <key>image</key>
+                <string>com.apple.mobilemail-large.png</string>
+                <key>bundleid</key>
+                <string>com.apple.mobilemail</string>
+            </dict>
+            <dict>
+                <key>top</key>
+                <integer>8</integer>
+                <key>left</key>
+                <integer>235</integer>
+                <key>image</key>
+                <string>net.whatsapp.WhatsApp-large.png</string>
+                <key>bundleid</key>
+                <string>net.whatsapp.WhatsApp</string>
+            </dict>
+            <dict>
+                <key>top</key>
+                <integer>8</integer>
+                <key>left</key>
+                <integer>309</integer>
+                <key>image</key>
+                <string>com.atebits.Tweetie2-large.png</string>
+                <key>bundleid</key>
+                <string>com.atebits.Tweetie2</string>
+            </dict>
+        </array>
+        <key>widgets</key>
+        <array>
+            <dict>
+                <key>top</key>
+                <integer>380</integer>
+                <key>left</key>
+                <integer>30</integer>
+                <key>width</key>
+                <integer>210</integer>
+                <key>height</key>
+                <integer>111</integer>
+                <key>widgetname</key>
+                <string>Lyra</string>
+            </dict>
+        </array>
+    </dict>
+</plist>
